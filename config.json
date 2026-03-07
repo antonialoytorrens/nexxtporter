@@ -5,7 +5,7 @@
   },
   "NSSFiles": [
     {
-      "SourceFile": "E:/nes/project2/project2.nss",
+      "SourceFile": "project2.nss",
       "ExportCHR": [
         {
           "TargetFile": "project2.chr",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "SourceFile": "E:/nes/project2/nss/font.nss",
+      "SourceFile": "font.nss",
       "ExportCHR": [
         {
           "TargetFile": "font.chr",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "SourceFile": "E:/nes/project2/nss/title.nss",
+      "SourceFile": "title.nss",
       "ExportCHR": [
         {
           "TargetFile": "title_a.chr",
@@ -50,36 +50,6 @@
         {
           "TargetFile": "title_b.chr",
           "Start": "$0400",
-          "Size": "$0400"
-        },
-        {
-          "TargetFile": "title_c.chr",
-          "Start": "$0800",
-          "Size": "$0400"
-        },
-        {
-          "TargetFile": "title_d.chr",
-          "Start": "$0C00",
-          "Size": "$0400"
-        },
-        {
-          "TargetFile": "title_e.chr",
-          "Start": "$1000",
-          "Size": "$0400"
-        },
-        {
-          "TargetFile": "title_f.chr",
-          "Start": "$1400",
-          "Size": "$0400"
-        },
-        {
-          "TargetFile": "title_g.chr",
-          "Start": "$1800",
-          "Size": "$0400"
-        },
-        {
-          "TargetFile": "title_h.chr",
-          "Start": "$1C00",
           "Size": "$0400"
         }
       ],
@@ -107,20 +77,6 @@
           "TargetVariableName": "title_palette_b",
           "TargetAppend": true,
           "SourceSubPalette": 1
-        },
-        {
-          "TargetFile": "title_palette.inc",
-          "TargetSegmentName": "TITLE_PRG",
-          "TargetVariableName": "title_palette_c",
-          "TargetAppend": true,
-          "SourceSubPalette": 2
-        },
-        {
-          "TargetFile": "title_palette.inc",
-          "TargetSegmentName": "TITLE_PRG",
-          "TargetVariableName": "title_palette_d",
-          "TargetAppend": true,
-          "SourceSubPalette": 3
         }
       ]
     }

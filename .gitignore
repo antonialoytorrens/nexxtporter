@@ -1,3 +1,8 @@
 nexxtporter/bin/
 nexxtporter/obj/
 .vs/
+.venv/
+.pytest_cache/
+__pycache__/
+*.xml
+dist
